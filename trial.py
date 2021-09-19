@@ -112,16 +112,4 @@ def hero():
                     print(newperiod+1,": GREEN")
                 else:
                     print(newperiod+1,": RED")
-        i=i+1
-        newperiod+=1
-        numbers.append(current)
-        y=input("Do you want to play : Press 1 and 0 to exit \n")
-        if(y==0):
-            y=False
-        if (len(numbers)>11):
-            clear()
-            system('figlet Thank you!!')
-            print("Play on next specified time!!")
-            print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n
-            #print(numbers)
+
