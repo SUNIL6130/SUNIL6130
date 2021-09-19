@@ -11,8 +11,8 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 9, 15)
-#expirydate = datetime.date(2021, 12, 30)
+expirydate = datetime.date(2021, 10, 11)
+#expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
 
@@ -73,6 +73,7 @@ def hero():
     while(y):
         clear()
         system(banner)
+        print("Contact me on telegram @RXCE_HACKER")
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
@@ -123,11 +124,60 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n
+            sys.exit(" \n \n \n Contact on Telegram @RXCE_HACKER")
             #print(numbers)
+  
 
 
 
+if(expirydate>today):
+    now = datetime.datetime.now()
+    First = now.replace(hour=13, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=16, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
+    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=18, minute=18, second=0, microsecond=0)
+
+    if (False):
+            period=220
+            hero()
+    elif(now>First and now<Firstend):
+            period=280
+            hero()
+    elif(now>Third and now<Thirdend):
+            period=340
+            hero()
+    elif(False):
+            period=281
+            hero()
+    else:
+        banner='figlet RXCE'
+        print("Hi!! Thanks for buying the hack"
+        print("----------Your play time-----------")
+        print("9 Sept 2021, 11:00 AM- 11:30 AM")
+        print("9 Sept 2021, 02:00 PM- 02:30 PM")
+        print("9 Sept 2021, 05:00 PM- 05:30 PM")
+        print("9 Sept 2021, 08:00 PM- 08:30 PM")
+        print("Please play on the given time, and ")
+        print("If you think it is an error contact")
+        print(" admin on telegram @RXCE_HACKER ")
+
+
+
+else:
+    banner='figlet RXCE'
+    system(banner)
+    print("*---------*----------*-------------*----------*")
+    print("Your hack has expired--- Please contact")
+    print(" on telegram ----@smsn_knt for activating")
+    print(" Recharge Amount :        Total limit " )
+    print(" 1.     1000 INR -------  1 Day (40 Games")
+    print(" 2.     5000 INR -------  7 Days(280 Games")
+    print("*---------*----------*-------------*----------*")
+    print("Your custom hack can be made request from us.")
 
 
 
