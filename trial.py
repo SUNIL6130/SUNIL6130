@@ -154,7 +154,7 @@ if(expirydate>today):
             period=281
             hero()
     else:
-        banner='figlet RXCE'
+        banner='figlet SUNIL'
         print("Hi!! Thanks for buying the hack"
         print("----------Your play time-----------")
         print("9 Sept 2021, 11:00 AM- 11:30 AM")
@@ -168,14 +168,14 @@ if(expirydate>today):
 
 
 else:
-    banner='figlet RXCE'
+    banner='figlet SUNIL'
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
     print(" on telegram ----@smsn_knt for activating")
     print(" Recharge Amount :        Total limit " )
-    print(" 1.     1000 INR -------  1 Day (40 Games")
-    print(" 2.     5000 INR -------  7 Days(280 Games")
+    print(" 1.     9000 INR -------  1 Day (40 Games")
+    print(" 2.     9000 INR -------  7 Days(280 Games")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
 
