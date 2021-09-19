@@ -3,6 +3,6 @@ pkg install git
 pkg install python 
 pkg install figlet
 rm trial.py trial*
-wget -q "https://raw.githubusercontent.com/SUNIL6130/SUNIL6130/main/hackrxce"
+wget -q "https://raw.githubusercontent.com/SUNIL6130/SUNIL6130/main/trial.py"
 clear
 python trial.py
