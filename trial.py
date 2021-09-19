@@ -1,4 +1,3 @@
-
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
@@ -11,8 +10,8 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 9, 15)
-#expirydate = datetime.date(2021, 12, 30)
+expirydate = datetime.date(2021, 9, 17)
+#expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
 
@@ -61,13 +60,114 @@ def hero():
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
+    def getSum(n):
+        sum=0
+        for digit in str(n):
+            sum+= int(digit)
+        return sum
 
     clear()
     y=1
     newperiod=period
     banner='figlet RXCE'
-    thisway=[2,6,8,11,12,15,16,18,19,20]
-    thatway=[1,3,4,5,7,9,10,14,13,17]
     numbers=[]
-    i=1
     while(y):
+        clear()
+        system(banner)
+        print("Contact me on telegram @smsn_knt")
+        print("Enter ",newperiod," Parity Price :")
+        current=input()
+        current=int(current)
+        chalo()
+        print("\n---------Successfully hacked the server-----------")
+        chalo1()
+        print("\n---------Successfully got the colour -------------")
+        print('\n')
+        last2=str(current)[-2:]
+        check=checkg(last2)
+        if(newperiod%2==0):
+            sum=getSum(current)+check
+            if(sum%2==0):
+                print(newperiod+1," : RED")
+            else:
+                print(newperiod+1,"  : GREEN")
+        else:
+            sum=getSum(current)+check+1
+            if(sum%2==0):
+                print(newperiod+1,"   : RED")
+            else:
+                print(newperiod+1,"   : GREEN")
+        newperiod+=1
+        numbers.append(current)
+        y=input("Do you want to play : Press 1 and 0 to exit \n")
+        if(y==0):
+            y=False
+        if (len(numbers)>11):
+            clear()
+            system('figlet Thank you!!')
+            print("Play on next specified time!!")
+            print("-----------Current Time UP----------")
+            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            #print(numbers)
+  
+
+
+
+if(expirydate>today):
+    now = datetime.datetime.now()
+    First = now.replace(hour=13, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=16, minute=25, second=0, microsecond=0)
+    Secondend = now.replace(hour=17, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=16, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
+    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
+
+    if (False):
+            period=220
+            hero()
+    elif(False):
+            period=340
+            hero()
+    elif(False):
+            period=340
+            hero()
+    elif(False):
+            period=360
+            hero()
+    else:
+        banner='figlet RXCE'
+        system(banner)
+        #print("Hi!! Thanks for buying the hack")
+        print("Hi! thanks for trying our DEMO")
+        print("----------Your play time-----------")
+        #print("31st Aug 2021, 11:00 AM- 11:30 AM")
+        #print("31st Aug 2021, 02:00 PM- 02:30 PM")
+        print("16th Sept 2021, 04:30 PM- 05:00 PM")
+        #print("31st Aug 2021, 08:00 PM- 08:30 PM")
+        print("Please play on the given time, and ")
+        print("If you think it is an error contact")
+        print(" admin on telegram @smsn_knt ")
+
+
+
+else:
+    banner='figlet RXCE'
+    system(banner)
+    print("*---------*----------*-------------*----------*")
+    print("Your hack has expired--- Please contact")
+    print(" on telegram ----@smsn_knt for activating")
+    print(" Recharge Amount :        Total limit " )
+    print(" 1.     1000 INR -------  1 Day (30 Games")
+    print(" 2.     5000 INR -------  7 Days(210 Games")
+    print("*---------*----------*-------------*----------*")
+    print("Your custom hack can be made request from us.")
+    print("Beware of fraudsters!!!")
+    print("My banking name is SUNNY KUMAR")
+    print("If you send to any other name , then IT IS SCAMMM")
+    print("--------*--------*----------*---------")
+    print("send payment only to SUNNY KUMAR ")
+    print("payhere--- UPI : ")
+    print("UPI1 : mdurth@ybl")
+    print("UPI2 : sunnyk16@fbl")
