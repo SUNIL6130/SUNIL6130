@@ -152,22 +152,3 @@ if(expirydate>today):
 
 
 
-else:
-    banner='figlet RXCE'
-    system(banner)
-    print("*---------*----------*-------------*----------*")
-    print("Your hack has expired--- Please contact")
-    print(" on telegram ----@smsn_knt for activating")
-    print(" Recharge Amount :        Total limit " )
-    print(" 1.     1000 INR -------  1 Day (30 Games")
-    print(" 2.     5000 INR -------  7 Days(210 Games")
-    print("*---------*----------*-------------*----------*")
-    print("Your custom hack can be made request from us.")
-    print("Beware of fraudsters!!!")
-    print("My banking name is SUNNY KUMAR")
-    print("If you send to any other name , then IT IS SCAMMM")
-    print("--------*--------*----------*---------")
-    print("send payment only to SUNNY KUMAR ")
-    print("payhere--- UPI : ")
-    print("UPI1 : mdurth@ybl")
-    print("UPI2 : sunnyk16@fbl")
