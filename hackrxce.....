@@ -138,18 +138,16 @@ if(expirydate>today):
             hero()
     else:
         banner='figlet RXCE'
-        system(banner)
-        #print("Hi!! Thanks for buying the hack")
-        print("Hi! thanks for trying our DEMO")
-        print("----------Your play time-----------")
-        #print("31st Septt2021, 08:00 AM- 11:30 PM")
-        #print("31st Sept 2021, 08:00 AM- 02:30 PM")
-        print("31th Sept 2021,  08:00  AM- 05:00 PM")
-        #print("31st Sept 2021, 08:00 Am- 08:30 PM")
+        print("Hi!! 🤑Thanks for buying the hack🤑")
+        print("----------⌛Your play time⌛----------")
+        print("5 Sept 2021, 11:00 AM- 11:30 AM")
+        print("5 Sept 2021, 02:00 PM- 02:30 PM")
+        print("5 Sept 2021, 05:42 PM- 08:AM PM")
+        #print("5 Sept 2021, 06:37 PM- 08:30 AM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
-        print(" admin on telegram @smsn_knt ")
-
+        print(" admin on telegram @RXCE_HACKER ")
+        (" Channel join krle bhosdke😁 @RXCE_HACKE
 
 
 else:
