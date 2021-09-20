@@ -28,16 +28,16 @@ if(expirydate>today):
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if (False):
-            period=20210920380
+            period=20210920475
             hero()
     elif(now>First and now<Firstend):
-            period=20210920300
+            period=20210920475
             hero()
     elif(now>Third and now<Thirdend):
-            period=20210920280
+            period=20210920475
             hero()
     elif(True):
-            period=20210920166
+            period=20210920475
             hero()
     else:
         banner='figlet RXCE'
@@ -113,7 +113,7 @@ def chalo():
         clear()
         system(banner)
         print("Contact me on telegram @smsn_knt")
-        print("Enter ",newperiod," Parity Price :")
+        print("Enter ",20210920475," Parity Price :")
         current=input()
         current=int(current)
         chalo()
