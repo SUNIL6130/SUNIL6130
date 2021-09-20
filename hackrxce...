@@ -144,7 +144,7 @@ if(expirydate>today):
         print("----------Your play time-----------")
         #print("31st Septt2021, 08:00 AM- 11:30 PM")
         #print("31st Sept 2021, 08:00 AM- 02:30 PM")
-        print("16th Sept 2021,  08:00  AM- 05:00 PM")
+        print("31th Sept 2021,  08:00  AM- 05:00 PM")
         #print("31st Sept 2021, 08:00 Am- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
