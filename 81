@@ -52,7 +52,7 @@ def hero():
         #long process here
         time.sleep(5)
         done = True
-
+Hy 
     def clear():
         # for windows
         if name == 'nt':
@@ -115,16 +115,16 @@ if(expirydate>today):
 
     if (True):
             period=20210922480
-            hero()
+            hero
     elif(False):
             period=20210922470
-            hero()
+            hero
     elif(False):
             period=20210922460
-            hero()
+            hero
     elif(False):
             period=20210922459
-            hero()
+            hero
     else:
         banner='figlet RXCE'
         system(banner)
