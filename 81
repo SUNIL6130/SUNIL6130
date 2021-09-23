@@ -75,7 +75,7 @@ Hy
         clear()
         system(banner)
         print("Contact me on telegram @smsn_knt")
-        print("Enter ",newperiod," Bcone Price :")
+        print("Enter " " Bcone Price :")
         current=input()
         current=int(current)
         chalo()
