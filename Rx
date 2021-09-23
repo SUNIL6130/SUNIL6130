@@ -31,7 +31,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(20)
+        time.sleep(5)
         done = True
 
     def chalo1():
@@ -50,7 +50,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(20)
+        time.sleep(5)
         done = True
 
     def clear():
@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @smsn_knt")
-        print("Enter ",newperiod," Parity Price :")
+        print("Enter " " Parity Price :")
         current=input()
         current=int(current)
         chalo()
