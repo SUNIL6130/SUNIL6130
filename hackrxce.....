@@ -31,7 +31,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(20)
+        time.sleep(5)
         done = True
 
     def chalo1():
@@ -50,7 +50,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(20)
+        time.sleep(5)
         done = True
 
     def clear():
@@ -134,7 +134,7 @@ if(expirydate>today):
             period=20210920473
             hero()
     elif(False):
-            period=20210920473
+            period=20210928282
             hero()
     else:
         banner='figlet RXCE'
