@@ -50,7 +50,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(5)
+        time.sleep(10)
         done = True
 
     def clear():
@@ -144,16 +144,16 @@ if(expirydate>today):
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if (now>First and now<Firstend):
-            period=420
+            period=443
             hero()
     elif(now>Second and now<Secondend):
-            period=420
+            period=443
             hero()
     elif(now>Third and now<Thirdend):
-            period=420
+            period=443
             hero()
     elif(True):
-            period=420
+            period=443
             hero()
     else:
         banner='figlet RXCE'
