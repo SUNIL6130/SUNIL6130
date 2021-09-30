@@ -126,7 +126,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @Tusharma3")
+            sys.exit(" \n \n \n Contact on Telegram @Wolf Magic Begin Now")
             #print(numbers)
         banner='figlet Wolf Magic Begin Now'
 
@@ -182,4 +182,4 @@ else:
     print(" 2.     3000 INR -------  30 Days(1200 Games")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
-    print( "Msg me on telegram @tusharma3")
+    print( "Msg me on telegram @Wolf Magic Begin Now")
