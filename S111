@@ -31,7 +31,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(5)
+        time.sleep(10)
         done = True
 
     def chalo1():
@@ -72,7 +72,7 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram tusharma3")
+        print("Contact me on telegram wolf Magic Bihin Now")
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
@@ -121,14 +121,14 @@ def hero():
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
             y=False
-        if (len(numbers)>1000):
+        if (len(numbers)>100):
             clear()
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @Tusharma3")
             #print(numbers)
-        banner='figlet Tusharma3'
+        banner='figlet Wolf Magic Begin Now'
 
 
 
@@ -167,8 +167,8 @@ if(expirydate>today):
         print("If you think it is an error contact")
         print(" admin on telegram @Tusharma3 ")
 
-        print( "Msg me on telegram @tusharma3")
-        banner=('figlet Tusharma3')
+        print( "Msg me on telegram @Wolf Magic Begin Now")
+        banner=('figlet Wolf Magic Begin Now')
         print("play at your own risk please don't blame owner on any loss")
       
 else:
